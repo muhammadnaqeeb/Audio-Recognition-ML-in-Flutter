@@ -34,9 +34,10 @@ class _HomePageState extends State<HomePage> {
         _recording = true;
       });
       result = TfliteAudio.startAudioRecognition(
-        numOfInferences: 1,
         sampleRate: 44100,
         bufferSize: 22016,
+        numOfInferences: 5,
+        detectionThreshold: 0.3,
       );
       result?.listen((event) {
         recognition = event["recognitionResult"];
