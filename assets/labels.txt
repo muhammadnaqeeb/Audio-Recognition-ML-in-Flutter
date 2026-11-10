@@ -1,4 +1,9 @@
-0 Background Noise
-1 Bell
-2 Whistle
-3 Xylophone
+0 Angry
+1 Background Noise
+2 Calm
+3 Disgust
+4 Fearful
+5 Happy
+6 Neutral
+7 Sad
+8 Surprised
